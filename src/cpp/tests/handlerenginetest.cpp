@@ -144,7 +144,7 @@ public:
 		requestBody.clear();
 	}
 
-private slots:
+private:
 	void zhttpClientIn_readyRead(const QList<QByteArray> &message)
 	{
 		log_debug("client in");
